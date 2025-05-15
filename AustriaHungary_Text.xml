@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_AUSTRIA_HUNGARY_NAME" Text="오스트리아-헝가리 이중제국" Language="ko_KR"/>
+    <Row Tag="LOC_CIVILIZATION_AUSTRIA_HUNGARY_DESCRIPTION" Text="다민족 균형으로 문화와 제국을 유지하는 유럽의 열강 문명." Language="ko_KR"/>
+    <Row Tag="LOC_CIVILIZATION_AUSTRIA_HUNGARY_ADJECTIVE" Text="오스트리아-헝가리" Language="ko_KR"/>
+
+    <Row Tag="LOC_LEADER_FRANZ_JOSEPH_NAME" Text="프란츠 요제프 1세" Language="ko_KR"/>
+
+    <Row Tag="LOC_TRAIT_CIVILIZATION_REICHSRAT_NAME" Text="제국 의회" Language="ko_KR"/>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_REICHSRAT_DESCRIPTION" Text="도시 인구 5 이상일 때 생산력 +10%, 인구 10 이상일 때 문화 +15%, 인구 15 이상일 때 충성도 하락 없음. 도시 간 무역로가 연결될 경우 과학 +1, 문화 +1 추가 획득." Language="ko_KR"/>
+
+    <Row Tag="LOC_TRAIT_LEADER_IMPERIAL_EDICT_NAME" Text="황제 칙령" Language="ko_KR"/>
+    <Row Tag="LOC_TRAIT_LEADER_IMPERIAL_EDICT_DESCRIPTION" Text="충성도 50 이하 도시에서 프로젝트 '황제 특사 파견'이 가능. 충성도 회복 및 생산력, 신앙, 문화, 위대한 인물 점수 증가." Language="ko_KR"/>
+
+    <Row Tag="LOC_TRAIT_LEADER_PRIVY_COUNCIL_NAME" Text="귀족 평의회" Language="ko_KR"/>
+    <Row Tag="LOC_TRAIT_LEADER_PRIVY_COUNCIL_DESCRIPTION" Text="총독 진급 횟수에 따라 보너스: 1회 - 생산력 +10%, 2회 - 문화 +2, 3회 이상 - 무작위 위인 포인트 +1. 총독 주둔 시 산업 구역 보너스 +15%." Language="ko_KR"/>
+
+    <Row Tag="LOC_UNIT_KAISERLICH_LINE_INFANTRY_NAME" Text="케이사어리히 전열보병" Language="ko_KR"/>
+    <Row Tag="LOC_UNIT_KAISERLICH_LINE_INFANTRY_DESCRIPTION" Text="전통적 유럽식 전열보병. 원거리 공격에 강하고, 인접 아군 있을 시 전투력 +4." Language="ko_KR"/>
+
+    <Row Tag="LOC_BUILDING_NATIONAL_OPERA_NAME" Text="국민극장" Language="ko_KR"/>
+    <Row Tag="LOC_BUILDING_NATIONAL_OPERA_DESCRIPTION" Text="문화 +5, 위대한 음악가 포인트 +2, 작곡가 슬롯 1개. 충성도 50 이하일 때 충성도 +3." Language="ko_KR"/>
+  </LocalizedText>
+</GameData>
