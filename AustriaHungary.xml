@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+  <!-- TYPES 정의: 이거 없으면 문명6이 전체 문명 무시함 -->
+  <Types>
+    <Row Type="CIVILIZATION_AUSTRIA_HUNGARY" Kind="KIND_CIVILIZATION" />
+    <Row Type="LEADER_FRANZ_JOSEPH" Kind="KIND_LEADER" />
+    <Row Type="TRAIT_CIVILIZATION_REICHSRAT" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_LEADER_IMPERIAL_EDICT" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_LEADER_PRIVY_COUNCIL" Kind="KIND_TRAIT" />
+    <Row Type="UNIT_KAISERLICH_LINE_INFANTRY" Kind="KIND_UNIT" />
+    <Row Type="BUILDING_NATIONAL_OPERA" Kind="KIND_BUILDING" />
+  </Types>
+
+  <!-- 문명 정의 -->
+  <Civilizations>
+    <Row CivilizationType="CIVILIZATION_AUSTRIA_HUNGARY" Name="LOC_CIVILIZATION_AUSTRIA_HUNGARY_NAME" Description="LOC_CIVILIZATION_AUSTRIA_HUNGARY_DESCRIPTION" Adjective="LOC_CIVILIZATION_AUSTRIA_HUNGARY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIVILIZATION" ArtDefineTag="CIVILIZATION_AUSTRIA_HUNGARY_ART" />
+  </Civilizations>
+
+  <!-- 지도자 정의 -->
+  <Leaders>
+    <Row LeaderType="LEADER_FRANZ_JOSEPH" Name="LOC_LEADER_FRANZ_JOSEPH_NAME" ArtDefineTag="LEADER_FRANZ_JOSEPH_ART" />
+  </Leaders>
+
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_AUSTRIA_HUNGARY" LeaderType="LEADER_FRANZ_JOSEPH" />
+  </CivilizationLeaders>
+
+  <!-- 문명 특성 -->
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_REICHSRAT" Name="LOC_TRAIT_CIVILIZATION_REICHSRAT_NAME" Description="LOC_TRAIT_CIVILIZATION_REICHSRAT_DESCRIPTION" />
+  </Traits>
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_AUSTRIA_HUNGARY" TraitType="TRAIT_CIVILIZATION_REICHSRAT" />
+  </CivilizationTraits>
+
+  <!-- 지도자 특성 -->
+  <Traits>
+    <Row TraitType="TRAIT_LEADER_IMPERIAL_EDICT" Name="LOC_TRAIT_LEADER_IMPERIAL_EDICT_NAME" Description="LOC_TRAIT_LEADER_IMPERIAL_EDICT_DESCRIPTION" />
+    <Row TraitType="TRAIT_LEADER_PRIVY_COUNCIL" Name="LOC_TRAIT_LEADER_PRIVY_COUNCIL_NAME" Description="LOC_TRAIT_LEADER_PRIVY_COUNCIL_DESCRIPTION" />
+  </Traits>
+  <LeaderTraits>
+    <Row LeaderType="LEADER_FRANZ_JOSEPH" TraitType="TRAIT_LEADER_IMPERIAL_EDICT" />
+    <Row LeaderType="LEADER_FRANZ_JOSEPH" TraitType="TRAIT_LEADER_PRIVY_COUNCIL" />
+  </LeaderTraits>
+
+  <!-- 유닛 정의 -->
+  <Units>
+    <Row UnitType="UNIT_KAISERLICH_LINE_INFANTRY" BaseMoves="2" Cost="240" Combat="48" RangedCombat="0" PrereqTech="TECH_GUNPOWDER" FormationClass="FORMATION_CLASS_LAND_COMBAT" AdvisorType="ADVISOR_CONQUEST" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_KAISERLICH_LINE_INFANTRY_DESCRIPTION" Name="LOC_UNIT_KAISERLICH_LINE_INFANTRY_NAME" UnitFlagIcon="ICON_UNIT_KAISERLICH_LINE_INFANTRY" UnitArtInfo="ART_DEF_UNIT_INFANTRY" />
+  </Units>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_KAISERLICH_LINE_INFANTRY" ReplacesUnitType="UNIT_MUSKETMAN" />
+  </UnitReplaces>
+
+  <!-- 건물 정의 -->
+  <Buildings>
+    <Row BuildingType="BUILDING_NATIONAL_OPERA" PrereqDistrict="DISTRICT_THEATER" Cost="200" Maintenance="1" Description="LOC_BUILDING_NATIONAL_OPERA_DESCRIPTION" Name="LOC_BUILDING_NATIONAL_OPERA_NAME" Theater="true" GreatWorkSlotType="GREATWORKSLOT_MUSIC" GreatWorkCount="1" Culture="5" GreatPersonPoints="2" GreatPersonType="GREAT_PERSON_MUSICIAN" />
+  </Buildings>
+  <BuildingReplaces>
+    <Row CivUniqueBuildingType="BUILDING_NATIONAL_OPERA" ReplacesBuildingType="BUILDING_MUSEUM_ART" />
+  </BuildingReplaces>
+
+ </BuildingReplaces>
+
+<!-- 아트 더미 태그: 선택창용 -->
+<ArtDefineTags>
+  <Row Tag="CIVILIZATION_AUSTRIA_HUNGARY_ART" />
+  <Row Tag="LEADER_FRANZ_JOSEPH_ART" />
+</ArtDefineTags>
+
+<!-- 아이콘 아틀라스 등록 -->
+<IconTextureAtlases>
+  <Row Name="CIVILIZATION_AUSTRIA_HUNGARY_ICON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/Civ_AustriaHungary.dds"/>
+  <Row Name="LEADER_FRANZ_JOSEPH_ICON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/Leader_FranzJoseph.dds"/>
+</IconTextureAtlases>
+
+<IconDefinitions>
+  <Row Name="ICON_CIVILIZATION_AUSTRIA_HUNGARY" Atlas="CIVILIZATION_AUSTRIA_HUNGARY_ICON" Index="0"/>
+  <Row Name="ICON_LEADER_FRANZ_JOSEPH" Atlas="LEADER_FRANZ_JOSEPH_ICON" Index="0"/>
+</IconDefinitions>
+
+</GameData> <!-- ← 여기서 닫히는 게 맞다! -->
