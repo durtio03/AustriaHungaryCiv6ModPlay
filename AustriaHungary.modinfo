@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="B19CFAFE-2193-4D21-84A4-FJH1911MOD" version="1">
+  <Properties>
+    <Name>오스트리아-헝가리 이중제국</Name>
+    <Teaser>프란츠 요제프의 다민족 황제정</Teaser>
+    <Description>인구 기반 보너스, 황제 특사, 총독 중심 보너스를 활용하는 고증 문명</Description>
+    <Authors>너</Authors>
+    <CompatibleVersions>1.0</CompatibleVersions>
+  </Properties>
+
+  <InGameActions>
+    <UpdateDatabase id="AUS_HUN_CORE">
+      <File>AustriaHungary.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AUS_HUN_TEXT">
+      <File>AustriaHungary_Text.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+
+  <Components>
+    <UpdateDatabase id="AUS_HUN_CORE">
+      <File>AustriaHungary.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AUS_HUN_TEXT">
+      <File>AustriaHungary_Text.xml</File>
+    </UpdateDatabase>
+  </Components>
+
+  <Files>
+    <File>AustriaHungary.xml</File>
+    <File>AustriaHungary_Text.xml</File>
+  </Files>
+</Mod>
